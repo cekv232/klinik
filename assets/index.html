@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="mycss/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Kelurahan</title>
+</head>
+    <body id="body-pd">
+        <div class="l-navbar" id="navbar">
+            <nav class="nav">
+                <div>
+                    <div class="nav__brand">
+                        <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                        <h5  class="nav__logo">Administrator</h5>
+                    </div>
+                    <div class="nav__list">
+                        <a href="#" class="nav__link active">
+                            <ion-icon name="home-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Dashboard</span>
+                        </a>
+
+                       <div  class="nav__link collapses">
+                            <ion-icon name="folder-open-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">dashboard</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                            </ul>
+                        </div>
+
+                        <div  class="nav__link collapses">
+                            <ion-icon name="folder-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Dashboard</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                            </ul>
+                        </div>
+
+                        <a href="#" class="nav__link">
+                            <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Dashboard</span>
+                        </a>
+                        <div class="nav__link collapse">
+                            <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                            <span class="nav__name">Dashboard</span>
+
+                            <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                            <ul class="collapse__menu">
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                                <a href="#" class="collapse__sublink">Dashboard</a>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <a href="#" class="nav__link">
+                    <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                    <span class="nav__name">Log Out</span>
+                </a>
+            </nav>
+        </div>
+
+<!-- navbar-------------------------------------------------------------------------->
+     <nav class="navbar bar2 navbar-light ">
+      <h4 class="navbar-brand ml-4">Halaman Dashboard</h4>
+      <form class="form-inline">
+        <input class="form-cari mr-sm-2 " type="search" placeholder="Pencarian" aria-label="Search">
+        <button class="btn  my-2 my-sm-0" id="btse" type="submit">cari</button>
+      </form>
+    </nav>
+
+<!-- dasboard------------------------------------------------------------------------>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          
+        </div>
+        <div class="col-md-4">
+          
+        </div>
+      </div>
+    </div>
+
+<!-- table ------------------------------------------------------------------------->
+
+        <div class="container tble"> 
+          <div class="hedr"></div>
+
+            <a href="#" class="btn" id="bth">
+             
+              <span class="nav_name">Tambah Data</span>
+            </a>
+
+
+            <div class="table-responsive">
+                 <table class="table text-center table-striped">
+                  <thead>
+                    <tr>
+                      <th scope="col">No</th>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Handle</th>
+                      <th scope="col">Aksi</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>
+                      <div class="row">
+                          <div class="col-sm-6">
+                              <a href="#" class="btn1 ">Edit</a>
+                          </div>
+                          <div class="col-sm-6 edt">
+                              <a href="#" class="btn1 ">Hapus</a>
+                          </div>
+                      </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>
+                      <div class="row">
+                          <div class="col-sm-6 ">
+                              <a href="#" class="btn1 ">Edit</a>
+                          </div>
+                          <div class="col-sm-6 edt">
+                              <a href="#" class="btn1 " >Hapus</a>
+                          </div>
+                      </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>@mdo</td>
+                      <td>
+                      <div class="row edt ">
+                          <div class="col-sm-6">
+                              <a href="#" class="btn1 ">Edit</a>
+                          </div>
+                          <div class="col-sm-6 edt">
+                              <a href="#" class="btn1">Hapus</a>
+                          </div>
+                      </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>  
+
+        
+
+
+<!-- ionic icon -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+<!-- javascript -->
+    <script src="js/main.js"></script>
+	<script src="js/slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>
